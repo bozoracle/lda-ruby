@@ -2,9 +2,9 @@
 
 ## What is LDA-Ruby?
 
-This wrapper is based on C-code by David M. Blei. In a nutshell, it can be used to automatically cluster documents into topics. The number of topics are chosen beforehand and the topics found are usually fairly intuitive. Details of the implementation can be found in the paper by Blei, Ng, and Jordan.
+This wrapper is based on C-code by David M. Blei. in a nutshell, it can be used to automatically cluster the documents into topics. The number of topics are chosen beforehand and the topics found are usually fairly intuitive. Details of the implementation can be found in the paper by David M. Blei, Ng and Jordan.
 
-The original C code relied on files for the input and output. We felt it was necessary to depart from that model and use Ruby objects for these steps instead. The only file necessary will be the data file (in a format similar to that used by [SVMlight][svmlight]). Optionally you may need a vocabulary file to be able to extract the words belonging to topics.
+The original C code relied on files for the input and output. We felt that it was necessary to depart from that model and use Ruby objects for all these steps instead. The only file necessary will be the data file (in a format similar to that used by [SVMlight][svmlight]). Optionally you may need a vocabulary file to be able to extract the words belonging to topics.
 
 ### Example usage:
 
@@ -26,7 +26,7 @@ If you have general questions about Latent Dirichlet Allocation, I urge you to u
 
 ## References
 
-Blei, David M., Ng, Andrew Y., and Jordan, Michael I. 2003. Latent dirichlet allocation. Journal of Machine Learning Research. 3 (Mar. 2003), 993-1022 [[pdf][pdf]].
+David M. Blei, David M., Ng, Andrew Y., and Jordan, Michael I. 2003. Latent dirichlet allocation. Journal of Machine Learning Research. 3 (Mar. 2003), 993-1022 [[pdf][pdf]].
 
 [svmlight]: http://svmlight.joachims.org
 [lda-ruby]: http://web.archive.org/web/20120616115448/http://mendicantbug.com/2008/11/17/lda-in-ruby/
